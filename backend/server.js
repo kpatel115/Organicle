@@ -23,9 +23,9 @@ mongoose.connection.on('error', (err) => {
 })
 
 // Routes
-// Routes
-const userRoutes = require('./routes/user')
-app.use('/api/users', userRoutes)
+// // Routes
+// const userRoutes = require('./routes/user')
+// app.use('/api/users', userRoutes)
 
 
 app.get('/', (req, res) => {
